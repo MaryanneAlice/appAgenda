@@ -1,0 +1,33 @@
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <context-param>
+    <param-name>resteasy.servlet.mapping.prefix</param-name>
+    <param-value>/appAgenda/*</param-value>
+  </context-param>
+ 
+  <context-param>
+    <param-name>resteasy.scan</param-name>
+    <param-value>true</param-value>
+  </context-param>
+   
+  <servlet>
+	<servlet-name>services.ApplicationJAXRS</servlet-name>
+	<servlet-class> org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+		<init-param>
+			<param-name>javax.ws.rs.Application</param-name>
+			<param-value>services.ApplicationJAXRS</param-value>
+		</init-param>
+	<load-on-startup>1</load-on-startup>
+  </servlet>
+  
+  <servlet-mapping>
+	<servlet-name>services.ApplicationJAXRS</servlet-name>
+	<url-pattern>/appAgenda/*</url-pattern>
+</servlet-mapping>
+
+
+</web-app>

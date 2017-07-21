@@ -1,0 +1,74 @@
+body {
+	padding-top: 50px;
+}
+.starter-template {
+	padding: 40px 15px;
+	text-align: center;
+}
+.btn-add, .btn-add:hover, .btn-add:active {
+	background-color: #2AB27B !important;
+	font-size: 16px;
+    color: white;
+    padding: 20px 20px 40px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 4px;
+}
+.btn-add-view, .btn-add-view:hover, .btn-add-view:active {
+	background-color: #2AB27B !important;
+	font-size: 16px;
+    color: white;
+    padding: 15px 15px 40px 15px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 4px;
+}
+.btn-editar, .btn-editar:hover, .btn-editar:active {
+	background-color: #B3B12B !important;
+	font-size: 12px;
+    color: white;
+    padding: 10px 10px 20px 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 4px;
+}
+.btn-cancelar, .btn-cancelar:hover, .btn-cancelar:active {
+	background-color: #B32B2B !important;
+	font-size: 16px;
+    color: white;
+    padding: 20px 20px 40px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 4px;
+}
+.btn-excluir, .btn-excluir:hover, .btn-excluir:focus, .btn-excluir:active {
+	background-color: #B32B2B !important;
+	font-size: 12px;
+    color: white;
+    padding: 10px 10px 20px 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 4px;
+}
+
+
+#inputNome, #inputPassword, #inputCellphone, #inputPhone ,#inputEmail {
+	padding:  25px 20px 25px 20px;
+	width: 83%;
+}
+
+.myForm{
+	margin: 2%;
+}
+.myTbl{
+	margin:  25px 20px 25px 20px;
+}
+td, tr, th {
+	text-align:center;
+}
+#none{
+	display: none;
+}
+.formLg{
+	align: center;
+}
