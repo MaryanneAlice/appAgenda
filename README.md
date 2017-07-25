@@ -1,4 +1,4 @@
 # appAgenda
 
-Java, Angular.js e Bootstrap.
+Java, Angular.js and Bootstrap.
 Application of Architecture Rest
